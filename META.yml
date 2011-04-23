@@ -1,0 +1,25 @@
+---
+abstract: ~
+author:
+  - 'Wes Young, <wes@barely3am.com>'
+distribution_type: module
+generated_by: 'Module::Install version 0.76'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CIF-Archive-Storage-Plugin-Iodef
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  CIF::Archive: 0.01
+  Regexp::Common: 2.122
+  Regexp::Common::net::CIDR: 0.02
+  XML::IODEF: 0.10
+  XML::Malware: 0.0004
+  perl: 5.8.0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01_01
